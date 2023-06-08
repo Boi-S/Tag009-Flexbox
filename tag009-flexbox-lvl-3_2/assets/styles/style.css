@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+body {
+    font-family: "lato";
+    max-width: 1440px;
+    height: 100vh;
+    background-color: #D9E8E5;
+}
+
+/* ------------------- Nav -------------------- */
+
+.nav-bar h1 {
+    font-size: 24px;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: white;
+    align-items: baseline;
+    padding: 20px 65px;
+    gap: 20px 20px;    
+    list-style: none; 
+}
+
+.nav-bar a {
+    text-decoration: none;   
+    color: #000000;
+    font-size: 16px;
+}
+
+.nav-bar-right {
+    margin-left: auto;
+    padding: 20px 0;
+}
+
+/* ---------------------- Main ------------------ */
+
+p {
+    font-size: 24px;
+}
+
+.derherrderringe {
+    padding-top: 80px;
+    padding-left: 160px;
+}
+
+
+.derherrderringe div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-top: 8px;
+    gap: 20px 16px;
+}
+
+.derherrderringe img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.23);
+}
